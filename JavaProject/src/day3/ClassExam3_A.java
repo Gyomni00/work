@@ -7,18 +7,18 @@ package day3;
 
 import java.util.Scanner;
 
-public class ClassExam3 {
+public class ClassExam3_A {
 
 	// 필드;
 		private int num1, num2;
 		private char op;
 		private char ans;
 		// 생성자;
-		public ClassExam3() {
+		public ClassExam3_A() {
 		
 		}
 		
-		public ClassExam3(int n1, char c, int n2) {
+		public ClassExam3_A(int n1, char c, int n2) {
 			num1 = n1;
 			op = c;
 			num2 = n2;
@@ -70,7 +70,7 @@ public class ClassExam3 {
 		public static void main(String[] args) {
 			
 			Scanner sc = new Scanner(System.in);
-			ClassExam3 calc = new ClassExam3();
+			ClassExam3_A calc = new ClassExam3_A();
 			
 			do {
 				calc.setNum1(sc.nextInt());
